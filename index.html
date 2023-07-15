@@ -9,6 +9,12 @@
       src="https://kit.fontawesome.com/121e75421a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@500&family=Poppins:ital,wght@0,200;0,400;0,600;1,100&family=Source+Code+Pro:ital,wght@0,200;1,300&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>🕐World Clock - Audrey Parker</title>
@@ -26,33 +32,50 @@
         <option>London</option>
         <option>Tokyo</option>
       </select>
-      <hr />
 
       <div class="city">
-        <h2>Austin</h2>
-        <div class="date">July 15th 2023</div>
-        <div class="time">11:56 P.M.</div>
+        <div>
+          <h2>Austin</h2>
+          <div class="date">July 15th 2023</div>
+        </div>
+        <div class="time">11:56 <small>P.M.</small></div>
       </div>
+
       <div class="city">
-        <h2>Lima</h2>
-        <div class="date">July 15th 2023</div>
-        <div class="time">11:56 P.M.</div>
+        <div>
+          <h2>Lima</h2>
+          <div class="date">July 15th 2023</div>
+        </div>
+        <div class="time">11:56 <small>P.M.</small></div>
       </div>
-      <h2>Auckland</h2>
-      <h2>Los Angeles</h2>
-      <h2>Paris</h2>
+
+      <div class="city">
+        <div>
+          <h2>Auckland</h2>
+          <div class="date">July 15th 2023</div>
+        </div>
+        <div class="time">11:56 <small>P.M.</small></div>
+      </div>
+
+      <div class="city">
+        <div>
+          <h2>Paris</h2>
+          <div class="date">July 15th 2023</div>
+        </div>
+        <div class="time">11:56 <small>P.M.</small></div>
+      </div>
     </div>
 
     <footer>
-      Built by Audrey Parker and
+      Built by <span class="by">Audrey Parker</span> and
       <a href="https://github.com/audspark96/World-Clock" target="_blank"
-        >Open source.</a
+        >Open sourced.</a
       >
       <a
         href="https://www.linkedin.com/in/audrey-parker-iseral/"
         target="_blank"
       >
-        <i class="fa-brands fa-linkedin" style="color: #2b1aa8"></i
+        <i class="fa-brands fa-linkedin" style="color: #03f5f9"></i
       ></a>
     </footer>
     <script src="src/index.js"></script>

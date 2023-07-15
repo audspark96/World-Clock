@@ -1,9 +1,98 @@
+a {
+  text-decoration: none;
+  color: #03f5f9;
+}
+
+a:hover {
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  color: rgb(73, 2, 255);
+}
+
 body {
   color: rgb(255, 255, 255);
-  background-color: rgb(45, 0, 87);
   text-align: center;
+  font-family: "Lexend Peta", sans-serif;
+
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/090/081/original/GettyImages_1216112779.0.jpg?1689452832");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  overflow-y: scroll;
 }
-container {
-  background-color: rgb(53, 52, 52, 0.25);
+
+footer {
+  margin-top: 40px;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+
+  padding: 5px;
+  margin: 0;
+}
+h2 {
+  font-weight: thin;
+  font-family: "Source Code Pro", monospace;
+
+  margin: 0;
+  margin: 0 0 5px;
+}
+
+select {
+  color: rgb(109, 121, 150);
+
+  width: 90%;
+  padding: 10px;
+  border-radius: 6px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.by {
+  color: rgb(3, 245, 249);
+}
+
+.city {
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+
+  border-bottom: 2px solid rgba(109, 121, 150, 0.5);
+}
+
+.city:last-child {
+  border: none;
+}
+.container {
+  background-color: rgba(109, 121, 150, 0.256);
   color: white;
+
+  max-width: 600px;
+  padding: 15px;
+  margin: 0 auto;
+
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px rgba(23, 23, 23, 0.5);
+}
+
+.date {
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 18px;
+  line-height: 1;
+  vertical-align: middle;
 }
