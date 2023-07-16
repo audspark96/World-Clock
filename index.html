@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.CSS" />
+
+    <!--fonts and icons links-->
     <script
       src="https://kit.fontawesome.com/121e75421a.js"
       crossorigin="anonymous"
@@ -15,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@500&family=Poppins:ital,wght@0,200;0,400;0,600;1,100&family=Source+Code+Pro:ital,wght@0,200;1,300&display=swap"
       rel="stylesheet"
     />
+    <!--moment.js links-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>🕐World Clock - Audrey Parker</title>
@@ -22,9 +25,11 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
+
+      <!--city selector-->
       <select>
         <option>Select a city...</option>
-        <option>Austin</option>
+        <option>Mexico City</option>
         <option>Honolulu</option>
         <option>Sydney</option>
         <option>Moscow</option>
@@ -33,15 +38,16 @@
         <option>Tokyo</option>
       </select>
 
-      <div class="city">
+      <!--default cities-->
+      <div class="city" id="austin">
         <div>
           <h2>Austin</h2>
-          <div class="date">July 15th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">11:56 <small>P.M.</small></div>
+        <div class="time"></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="lima">
         <div>
           <h2>Lima</h2>
           <div class="date">July 15th 2023</div>
@@ -49,7 +55,7 @@
         <div class="time">11:56 <small>P.M.</small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="auckland">
         <div>
           <h2>Auckland</h2>
           <div class="date">July 15th 2023</div>
@@ -57,9 +63,16 @@
         <div class="time">11:56 <small>P.M.</small></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="paris">
         <div>
           <h2>Paris</h2>
+          <div class="date">July 15th 2023</div>
+        </div>
+        <div class="time">11:56 <small>P.M.</small></div>
+      </div>
+      <div class="city" id="bangkok">
+        <div>
+          <h2>Bangkok</h2>
           <div class="date">July 15th 2023</div>
         </div>
         <div class="time">11:56 <small>P.M.</small></div>
