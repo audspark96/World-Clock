@@ -27,55 +27,57 @@
       <h1>World Clock</h1>
 
       <!--city selector-->
-      <select>
+      <select id="city-select">
         <option>Select a city...</option>
-        <option>Mexico City</option>
-        <option>Honolulu</option>
-        <option>Sydney</option>
-        <option>Moscow</option>
-        <option>New York</option>
-        <option>London</option>
-        <option>Tokyo</option>
+        <option value="America/Mexico_City">Mexico City</option>
+        <option value="Pacific/Honolulu">Honolulu</option>
+        <option value="Australia/Sydney">Sydney</option>
+        <option value="Europe/Moscow">Moscow</option>
+        <option value="America/New_York">New York</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Tokyo">Tokyo</option>
       </select>
 
       <!--default cities-->
-      <div class="city" id="austin">
+      <div id="select-replace">
+        <div class="city" id="austin">
+          <div>
+            <h2>Austin</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
+
+      <div class="city" id="dubai">
         <div>
-          <h2>Austin</h2>
+          <h2>Dubai</h2>
           <div class="date"></div>
         </div>
         <div class="time"></div>
       </div>
 
-      <div class="city" id="lima">
+      <div class="city" id="dublin">
         <div>
-          <h2>Lima</h2>
-          <div class="date">July 15th 2023</div>
+          <h2>Dublin</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">11:56 <small>P.M.</small></div>
-      </div>
-
-      <div class="city" id="auckland">
-        <div>
-          <h2>Auckland</h2>
-          <div class="date">July 15th 2023</div>
-        </div>
-        <div class="time">11:56 <small>P.M.</small></div>
+        <div class="time"></div>
       </div>
 
       <div class="city" id="paris">
         <div>
           <h2>Paris</h2>
-          <div class="date">July 15th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">11:56 <small>P.M.</small></div>
+        <div class="time"></div>
       </div>
       <div class="city" id="bangkok">
         <div>
           <h2>Bangkok</h2>
-          <div class="date">July 15th 2023</div>
+          <div class="date"></div>
         </div>
-        <div class="time">11:56 <small>P.M.</small></div>
+        <div class="time"></div>
       </div>
     </div>
 
